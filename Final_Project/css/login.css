@@ -1,0 +1,21 @@
+
+
+body {
+  background-image: url("../images/NSAimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logContainer{
+  margin: 300px 600px;
+  width: 200px;
+}
+.login{
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px
+}
+h1 {
+  font-size: larger;
+}
