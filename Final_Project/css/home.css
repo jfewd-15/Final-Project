@@ -1,0 +1,13 @@
+#navHeader{
+  width: 75%;
+
+}
+
+#navCat li{
+  display: inline-flex;
+  float: right;
+}
+.mainContent{
+  clear:both;
+  overflow: scroll;
+}
