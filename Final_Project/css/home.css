@@ -1,13 +1,18 @@
-#navHeader{
+#headerClass{
   width: 75%;
 
 }
-
+#navHeader img{
+  width: 75px;
+  height: 75px;
+}
 #navCat li{
   display: inline-flex;
   float: right;
+  padding: 5px;
 }
+
 .mainContent{
   clear:both;
-  overflow: scroll;
+  
 }
