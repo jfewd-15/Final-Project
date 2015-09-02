@@ -12,7 +12,7 @@
         <div class="nav">
               <ul>
                 <li class="home"><a href="index.html">Home</a></li>
-                <li class="map"><a href="#">Map</a></li>
+                <li class="map"><a href="Map.html">Map</a></li>
                 <li class="search"><a href="#">Search</a></li>
                 <li class="tip"><a href="#">Tip Fom</a></li>
               </ul>
@@ -50,15 +50,36 @@
         <textarea name="comments" rows="8" cols="40"></textarea>
     </form>
     <br>
-      <input type="submit" name="Submit" value="Submit" class="sub-btn">
+      <a class="js-open-modal" href="#" data-modal-id="popup"><input type="button" name="Submit" value="Submit" class="sub-btn"></a>
 
           <br><br>
             <footer>
               <p>Copyright 2015 Jeff Barksdale</p>
             </footer>
 
+            <!-- This is my modal dialog box -->
+  <div id="popup" class="modal-box">
+        <header>
+          <a href="#" class="js-modal-close close">×</a>
+        <h3>
+          <a href="http://www.jqueryscript.net/tags.php?/Modal/">Form Submission</a>
+      </h3>
+    </header>
+<div class="modal-body">
+    <p>This functionality is still under construction</p>
+  </div>
+  <footer>
+    <a href="#" class="js-modal-close">Close Button</a>
+  </footer>
+</div>
+
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/index.js">
+
+        </script>
 
   </body>
 </html>

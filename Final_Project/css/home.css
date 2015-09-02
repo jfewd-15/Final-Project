@@ -17,6 +17,7 @@ body {
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
+  border-right: 1px solid #888;
 }
 
 .nav a {
@@ -35,14 +36,18 @@ body {
   color: #444;
   cursor: default;
 }
+ol.carousel-indicators {
+  position: relative;
+}
 
-.slide img {
+.item img {
   height: 150px;
   width: 150px;
 }
 .osInt {
   text-align: center;
 }
+
 
 footer {
   background-color: #444;
@@ -51,11 +56,11 @@ footer {
   color: white;
 }
 
-.carousel-inner > .item > img,
+/*.carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
-  }
+  }*/
 
 
 
@@ -74,4 +79,5 @@ footer {
     display: inline-block;
     margin-right: -4px;
   }
+  car
 }
