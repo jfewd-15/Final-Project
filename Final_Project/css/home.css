@@ -40,6 +40,38 @@ body {
   height: 150px;
   width: 150px;
 }
+.osInt {
+  text-align: center;
 }
 
+footer {
+  background-color: #444;
+  height: 40px;
+  padding: 5px;
+  color: white;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 }
