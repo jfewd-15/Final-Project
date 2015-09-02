@@ -1,3 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.submit-tip {
+  margin-left: 10px;
+}
+input[type=submit] {
+  margin-left: 10px;
+}
+.phoneGroup input:hover {
+  background-color: #add8e6;
+}
+.nName input:hover {
+  background-color: #add8e6;
+}
+.nAddy input:hover {
+  background-color: #add8e6;
+}
+.sub-btn:hover {
+  background-color: #add8e6;
+}
+.sub-btn:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+
+}
+input {
+  font-size: 120%;
+  color: #5a5854;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+
+}
+textarea {
+  font-size: 120%;
+  color: #5a5854;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
 .phone {
   width: 50px;
 }
@@ -9,4 +86,33 @@
 }
 #st2d {
   width: 20px;
+}
+
+
+footer {
+  background-color: #444;
+  height: 40px;
+  padding: 5px;
+  color: white;
+}
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  textarea {
+    height: auto;
+    width: auto;
+  }
+
 }

@@ -2,41 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/tip.css">
     <title>Tip Form</title>
   </head>
-  <header>
 
-  </header>
-  <body>
-    <form class="" action="#" method="post">
-      <h2>Name/Phone</h2>
-      <label>First Name: <input type="text" name="Fname" value=""></label><br><br>
-        <label>Last Name: <input type="text" name="Lname" value=""></label><br><br>
-
-        <div class="phoneGroup">
-
-          <label>Phone: </label><input type="text" name="phone1" maxlength="3" class="phone">
-          <input type="text" name="phone2" maxlength="3" class="phone">
-          <input type="text" name="phone3" maxlength="4"  class="phone">
+  <body class="content">
+    <header>
+        <div class="nav">
+              <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="map"><a href="#">Map</a></li>
+                <li class="search"><a href="#">Search</a></li>
+                <li class="tip"><a href="#">Tip Fom</a></li>
+              </ul>
         </div>
+    </header>
+    <form class="submit-tip" action="#" method="post">
+
+      <h2>Name/Phone</h2>
+      <div class="nName">
+          <label>First Name: <input type="text" name="Fname" class="tx-name"></label>
+            <br><br>
+          <label>Last Name: <input type="text" name="Lname" class="tx-name"></label>
+            <br><br>
+          </div>
+        <div class="phoneGroup">
+          <label>Phone: </label><input type="text" name="phone1" maxlength="3" class="phone">
+            <input type="text" name="phone2" maxlength="3" class="phone">
+              <input type="text" name="phone3" maxlength="4"  class="phone">
+        </div>
+
       <h2>Address</h2>
-        <label>Street 1: <input type="address" name="address1" value=""></label>
-        <br><br>
-        <label>Street 2: <input type="address" name="address2" value=""></label>
-        <br><br>
-        <label>Street 3: <input type="address" name="address3" value=""></label><br><br>
+      <div class="nAddy">
+          <label>Street 1: <input type="address" name="address1" value=""></label>
+            <br><br>
+          <label>Street 2: <input type="address" name="address2" value=""></label>
+            <br><br>
+          <label>Street 3: <input type="address" name="address3" value=""></label>
+            <br><br>
 
         <label> City/State/Zip: </label><input type="text" name="City" id="usCity">
-        <input type="text" name="state" maxlength="2" id="st2d">
-        <input type="text" name="zip" maxlength="5"id="zCode">
+          <input type="text" name="state" maxlength="2" id="st2d">
+            <input type="text" name="zip" maxlength="5"id="zCode">
+            </div>
       <h2>Comments</h2>
         <textarea name="comments" rows="8" cols="40"></textarea>
     </form>
     <br>
-      <input type="submit" name="Submit" value="Submit">
+      <input type="submit" name="Submit" value="Submit" class="sub-btn">
 
-        <input type="button" name="back" value="Back">
+          <br><br>
+            <footer>
+              <p>Copyright 2015 Jeff Barksdale</p>
+            </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   </body>
 </html>
